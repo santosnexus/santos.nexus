@@ -1,6 +1,5 @@
 {
   "version": 2,
-  "name": "santos-nexus",
   "cleanUrls": true,
   "trailingSlash": false,
   "headers": [

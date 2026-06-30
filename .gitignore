@@ -32,3 +32,4 @@ node_modules/
 .Trashes
 ehthumbs.db
 Desktop.ini
+.vercel

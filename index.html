@@ -1,0 +1,477 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Santos.Nexus — Connecting People, Creating Possibilities | Five brands, one family</title>
+  <meta name="description" content="Santos King is a Kerala-rooted family of five brands: Santos Travel, TDK Sports, Santos Care, Santos Nexus, and DARC Foundation. Travel, Sports, Care, Technology, Conservation — growing together since 2009.">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Fraunces:opsz,wght@9..144,400;9..144,600&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="assets/css/tokens.css">
+  <link rel="stylesheet" href="assets/css/reset.css">
+  <link rel="stylesheet" href="assets/css/components.css">
+  <link rel="stylesheet" href="assets/css/pages.css">
+</head>
+<body>
+
+  <!-- Utility Bar -->
+  <div class="utility-bar">
+    <div class="container utility-bar__inner">
+      <div class="utility-bar__left">
+        <a href="tel:+918089084080">+91 80890 84080</a>
+        <a href="mailto:sales@santos.travel">sales@santos.travel</a>
+      </div>
+      <div class="utility-bar__right">
+        <div class="utility-bar__lang">
+          <a href="#" class="active">EN</a>
+          <a href="#">हिं</a>
+          <a href="#">മല</a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Main Nav -->
+  <nav class="nav">
+    <div class="container nav__inner">
+      <a href="index.html" class="nav__logo">
+        <div class="nav__logo-mark"></div>
+        <div class="nav__logo-text">
+          <span>SANTOS.NEXUS</span>
+          <small>Growing Together Since 2009</small>
+        </div>
+      </a>
+      <div class="nav__menu">
+        <a href="our-story.html">Our Story</a>
+        <a href="#brands">Our Brands</a>
+        <a href="travel.html">Travel</a>
+        <a href="sports.html">Sports</a>
+        <a href="care.html">Care</a>
+        <a href="nexus.html">Technology</a>
+        <a href="darc.html">Conservation</a>
+        <a href="contact.html" class="btn btn--primary nav__cta">Get in Touch</a>
+      </div>
+      <button class="nav__mobile-btn" aria-label="Toggle menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </nav>
+
+  <!-- 3D Hero -->
+  <section class="hero">
+    <canvas id="hero-canvas" class="hero__canvas"></canvas>
+    <div class="hero__gradient"></div>
+    <div class="container hero__inner">
+      <div class="eyebrow eyebrow--light">
+        <span class="eyebrow__line"></span>
+        A Family of Five Brands
+        <span class="eyebrow__line"></span>
+      </div>
+      <h1 class="hero__title">Connecting People,<br>Creating <em>Possibilities</em></h1>
+      <p class="hero__subtitle">Travel, Sports, Care, Technology, and Conservation — five brands growing together since 2009. One family, one purpose, one Kerala-rooted promise.</p>
+      <div class="hero__actions">
+        <a href="#brands" class="btn btn--primary btn--lg">Explore Our Brands</a>
+        <a href="contact.html" class="btn btn--secondary-light btn--lg">Get a Free Consultation</a>
+      </div>
+    </div>
+    <div class="hero__scroll-hint">Scroll to explore</div>
+  </section>
+
+  <!-- Our Five Brands -->
+  <section id="brands" class="section">
+    <div class="container">
+      <div class="section-head section-head--center">
+        <div class="eyebrow"><span class="eyebrow__line"></span>Our Five Brands<span class="eyebrow__line"></span></div>
+        <h2>One family. Five missions. Infinite possibilities.</h2>
+        <p>Each brand stands on its own — its own customers, its own expertise, its own story. Together, they form a Kerala-rooted ecosystem that creates opportunities no single brand could.</p>
+      </div>
+
+      <div class="grid grid-3">
+
+        <a href="travel.html" class="brand-card theme-travel reveal" style="--brand-color: #0A1F44;">
+          <div class="brand-card__bar"></div>
+          <div class="brand-card__inner">
+            <div class="brand-card__pillar">Travel</div>
+            <div class="brand-card__name">Santos Travel</div>
+            <div class="brand-card__tagline">Travel &amp; Tourism</div>
+            <p class="brand-card__desc">Govt. of India recognized inbound &amp; outbound tour operator with 17+ years of trust. Kerala, India, SE Asia, the Indian Subcontinent, and the Middle East.</p>
+            <div class="brand-card__cta">
+              <span>Explore Santos Travel</span>
+              <span class="brand-card__cta-arrow">→</span>
+            </div>
+          </div>
+        </a>
+
+        <a href="sports.html" class="brand-card theme-sports reveal reveal--delay-1" style="--brand-color: #FF6B35;">
+          <div class="brand-card__bar"></div>
+          <div class="brand-card__inner">
+            <div class="brand-card__pillar">Sports</div>
+            <div class="brand-card__name">TDK Sports</div>
+            <div class="brand-card__tagline">Sports Management &amp; Sports Tourism</div>
+            <p class="brand-card__desc">Home of the Federal Bank Kochi Swimathon Ultra+ (India's largest open-water swimathon) and the Duskathon beach run. Building Kerala's sports culture since 2014.</p>
+            <div class="brand-card__cta">
+              <span>Explore TDK Sports</span>
+              <span class="brand-card__cta-arrow">→</span>
+            </div>
+          </div>
+        </a>
+
+        <a href="care.html" class="brand-card theme-care reveal reveal--delay-2" style="--brand-color: #00B4D8;">
+          <div class="brand-card__bar"></div>
+          <div class="brand-card__inner">
+            <div class="brand-card__pillar">Care</div>
+            <div class="brand-card__name">Santos Care</div>
+            <div class="brand-card__tagline">Medical Tourism &amp; Healthcare Facilitation</div>
+            <p class="brand-card__desc">10,000+ patients. 150+ JCI &amp; NABH accredited hospitals. End-to-end concierge — from visa to recovery — for international patients seeking world-class care in India.</p>
+            <div class="brand-card__cta">
+              <span>Explore Santos Care</span>
+              <span class="brand-card__cta-arrow">→</span>
+            </div>
+          </div>
+        </a>
+
+        <a href="nexus.html" class="brand-card theme-nexus reveal reveal--delay-3" style="--brand-color: #F4B400;">
+          <div class="brand-card__bar"></div>
+          <div class="brand-card__inner">
+            <div class="brand-card__pillar">Technology</div>
+            <div class="brand-card__name">Santos Nexus</div>
+            <div class="brand-card__tagline">Technology &amp; Digital Solutions</div>
+            <p class="brand-card__desc">The digital backbone of the Santos King family. Building the technology that powers our four sibling brands — and serving clients who need world-class digital craft.</p>
+            <div class="brand-card__cta">
+              <span>Explore Santos Nexus</span>
+              <span class="brand-card__cta-arrow">→</span>
+            </div>
+          </div>
+        </a>
+
+        <a href="darc.html" class="brand-card theme-darc reveal reveal--delay-4" style="--brand-color: #2A9D8F;">
+          <div class="brand-card__bar"></div>
+          <div class="brand-card__inner">
+            <div class="brand-card__pillar">Conservation</div>
+            <div class="brand-card__name">DARC Foundation</div>
+            <div class="brand-card__tagline">Animal Welfare, Biodiversity &amp; Habitat Conservation</div>
+            <p class="brand-card__desc">Restoring biodiversity through native fruit tree forests, protecting natural habitats, and supporting domestic animal welfare in Kerala. Conservation begins where we live.</p>
+            <div class="brand-card__cta">
+              <span>Explore DARC Foundation</span>
+              <span class="brand-card__cta-arrow">→</span>
+            </div>
+          </div>
+        </a>
+
+        <a href="our-story.html" class="brand-card reveal reveal--delay-5" style="--brand-color: #0A1F44; background: var(--bg-alt);">
+          <div class="brand-card__bar"></div>
+          <div class="brand-card__inner">
+            <div class="brand-card__pillar">About</div>
+            <div class="brand-card__name">Santos King</div>
+            <div class="brand-card__tagline">The family behind the family</div>
+            <p class="brand-card__desc">Founded 2009 in Kochi, Kerala. A diversified group serving communities across travel, sport, healthcare, technology, and environmental conservation.</p>
+            <div class="brand-card__cta">
+              <span>Read our story</span>
+              <span class="brand-card__cta-arrow">→</span>
+            </div>
+          </div>
+        </a>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- Why Santos King -->
+  <section class="section why">
+    <div class="container">
+      <div class="section-head">
+        <div class="eyebrow"><span class="eyebrow__line"></span>Why Santos King</div>
+        <h2>Seventeen years of trust. One family of brands.</h2>
+        <p>We are not a holding company. We are a Kerala-rooted, founder-led group where each brand earns its place by serving real customers with real outcomes.</p>
+      </div>
+
+      <div class="why__grid">
+
+        <div class="card reveal">
+          <div class="stat__value stat__value--gold" data-counter="17" data-suffix="+">0</div>
+          <div class="stat__label">Years of Trust</div>
+          <p style="margin-top: 1rem; font-size: var(--fs-2); color: var(--text-muted);">Founded 2009 in Kochi. Govt. of India recognized since the beginning.</p>
+        </div>
+
+        <div class="card reveal reveal--delay-1">
+          <div class="stat__value stat__value--teal" data-counter="10000" data-suffix="+">0</div>
+          <div class="stat__label">Patients Served</div>
+          <p style="margin-top: 1rem; font-size: var(--fs-2); color: var(--text-muted);">International patients from 60+ countries through Santos Care.</p>
+        </div>
+
+        <div class="card reveal reveal--delay-2">
+          <div class="stat__value stat__value--coral" data-counter="50000" data-suffix="+">0</div>
+          <div class="stat__label">Travellers Annually</div>
+          <p style="margin-top: 1rem; font-size: var(--fs-2); color: var(--text-muted);">Across India, SE Asia, the Indian Subcontinent, and the Middle East.</p>
+        </div>
+
+        <div class="card reveal reveal--delay-3">
+          <div class="stat__value stat__value--mint" data-counter="5">0</div>
+          <div class="stat__label">Brands, One Family</div>
+          <p style="margin-top: 1rem; font-size: var(--fs-2); color: var(--text-muted);">Travel, Sports, Care, Technology, Conservation — all connected.</p>
+        </div>
+
+        <div class="card reveal reveal--delay-4">
+          <div class="stat__value" data-counter="2009">0</div>
+          <div class="stat__label">Founded</div>
+          <p style="margin-top: 1rem; font-size: var(--fs-2); color: var(--text-muted);">Headquartered in Aluva, Kochi, Kerala. Working across India and the world.</p>
+        </div>
+
+        <div class="card reveal reveal--delay-5">
+          <div class="stat__value stat__value--gold" data-counter="150" data-suffix="+">0</div>
+          <div class="stat__label">Hospital Partners</div>
+          <p style="margin-top: 1rem; font-size: var(--fs-2); color: var(--text-muted);">JCI &amp; NABH accredited hospitals across India, facilitated by Santos Care.</p>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- Cross-Vertical Plays -->
+  <section class="section plays">
+    <div class="container">
+      <div class="section-head section-head--center">
+        <div class="eyebrow"><span class="eyebrow__line"></span>Cross-Vertical Plays<span class="eyebrow__line"></span></div>
+        <h2>Five brands. One ecosystem. More value for you.</h2>
+        <p>Because we are a family, our customers benefit from connections our competitors cannot offer. A swimmer can become a traveller. A medical patient can recover in Kerala. A traveller can support conservation.</p>
+      </div>
+
+      <div class="grid grid-3">
+
+        <div class="plays__card reveal" style="--play-color: #FF6B35;">
+          <div class="plays__flow">
+            <span class="plays__from">TDK Sports</span>
+            <span class="plays__arrow">→</span>
+            <span class="plays__to">Santos Travel</span>
+          </div>
+          <div class="plays__title">Swim + Stay Kerala</div>
+          <p class="plays__desc">Register for the Kochi Swimathon, stay 3 extra days to explore Kerala's backwaters, beaches, and cuisine. One registration, one experience.</p>
+          <div class="plays__target">Target: 200 packages / year</div>
+        </div>
+
+        <div class="plays__card reveal reveal--delay-1" style="--play-color: #00B4D8;">
+          <div class="plays__flow">
+            <span class="plays__from">Santos Travel</span>
+            <span class="plays__arrow">→</span>
+            <span class="plays__to">Santos Care</span>
+          </div>
+          <div class="plays__title">Family Health Check-up</div>
+          <p class="plays__desc">GCC Malayali families visiting India can add a comprehensive health check-up at a JCI-accredited hospital through Santos Care. One trip, two outcomes.</p>
+          <div class="plays__target">Target: 100 referrals / year</div>
+        </div>
+
+        <div class="plays__card reveal reveal--delay-2" style="--play-color: #2A9D8F;">
+          <div class="plays__flow">
+            <span class="plays__from">Santos Care</span>
+            <span class="plays__arrow">→</span>
+            <span class="plays__to">Santos Travel</span>
+          </div>
+          <div class="plays__title">Recovery Holiday</div>
+          <p class="plays__desc">Post-treatment, take a 7–14 day Kerala recovery holiday. Houseboat stays, ayurvedic massages, and gentle rest — coordinated by Santos Travel.</p>
+          <div class="plays__target">Target: 150 referrals / year</div>
+        </div>
+
+        <div class="plays__card reveal reveal--delay-3" style="--play-color: #0A1F44;">
+          <div class="plays__flow">
+            <span class="plays__from">Santos Nexus</span>
+            <span class="plays__arrow">→</span>
+            <span class="plays__to">All 4 brands</span>
+          </div>
+          <div class="plays__title">Digital Backbone</div>
+          <p class="plays__desc">Every Santos King project — website, app, campaign, content — is delivered by Santos Nexus. One team, one quality bar, one point of accountability.</p>
+          <div class="plays__target">Target: 100% of internal projects</div>
+        </div>
+
+        <div class="plays__card reveal reveal--delay-4" style="--play-color: #F4B400;">
+          <div class="plays__flow">
+            <span class="plays__from">Santos Travel</span>
+            <span class="plays__arrow">→</span>
+            <span class="plays__to">DARC Foundation</span>
+          </div>
+          <div class="plays__title">Conservation Add-on</div>
+          <p class="plays__desc">Add a tree-planting experience at a DARC restoration site, or a guided conservation visit, to any Santos Travel itinerary. Travel that gives back.</p>
+          <div class="plays__target">Target: 5% of bookings opt in</div>
+        </div>
+
+        <div class="plays__card reveal reveal--delay-5" style="--play-color: #0A1F44; background: linear-gradient(135deg, var(--brand-navy) 0%, #122A5C 100%); color: white;">
+          <div class="plays__flow">
+            <span class="plays__from" style="background: rgba(255,255,255,0.1); color: white;">All 5</span>
+            <span class="plays__arrow" style="color: var(--brand-gold);">→</span>
+            <span class="plays__to" style="background: rgba(255,255,255,0.1); color: white;">You</span>
+          </div>
+          <div class="plays__title" style="color: white;">More value, one conversation</div>
+          <p class="plays__desc" style="color: rgba(255,255,255,0.85);">Every touchpoint with Santos King is a chance to discover a sister brand, a relevant service, a connection. Tell us what you need — we will route you to the right team.</p>
+          <div class="plays__target" style="color: var(--brand-gold); border-color: rgba(255,255,255,0.2);">Start the conversation</div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- The 5 Pillars -->
+  <section class="section pillars">
+    <div class="container">
+      <div class="section-head section-head--center">
+        <div class="eyebrow eyebrow--light"><span class="eyebrow__line"></span>The 5 Pillars<span class="eyebrow__line"></span></div>
+        <h2 style="color: white;">Travel · Sports · Care · Technology · Conservation</h2>
+        <p style="color: rgba(255,255,255,0.85);">Five pillars. One purpose. Growing together since 2009.</p>
+      </div>
+
+      <div class="pillars__grid">
+        <div class="pillar-card reveal" style="--pillar-color: #0A1F44;">
+          <div class="pillar-card__dot"></div>
+          <div class="pillar-card__name">Travel</div>
+          <div class="pillar-card__brand">Santos Travel</div>
+        </div>
+        <div class="pillar-card reveal reveal--delay-1" style="--pillar-color: #FF6B35;">
+          <div class="pillar-card__dot"></div>
+          <div class="pillar-card__name">Sports</div>
+          <div class="pillar-card__brand">TDK Sports</div>
+        </div>
+        <div class="pillar-card reveal reveal--delay-2" style="--pillar-color: #00B4D8;">
+          <div class="pillar-card__dot"></div>
+          <div class="pillar-card__name">Care</div>
+          <div class="pillar-card__brand">Santos Care</div>
+        </div>
+        <div class="pillar-card reveal reveal--delay-3" style="--pillar-color: #F4B400;">
+          <div class="pillar-card__dot"></div>
+          <div class="pillar-card__name">Technology</div>
+          <div class="pillar-card__brand">Santos Nexus</div>
+        </div>
+        <div class="pillar-card reveal reveal--delay-4" style="--pillar-color: #2A9D8F;">
+          <div class="pillar-card__dot"></div>
+          <div class="pillar-card__name">Conservation</div>
+          <div class="pillar-card__brand">DARC Foundation</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Testimonials -->
+  <section class="section testimonial">
+    <div class="container">
+      <div class="section-head section-head--center">
+        <div class="eyebrow"><span class="eyebrow__line"></span>What Our Customers Say<span class="eyebrow__line"></span></div>
+        <h2>Real travelers. Real patients. Real partners.</h2>
+      </div>
+
+      <div class="testimonial__grid">
+        <div class="quote reveal">
+          <div class="quote__mark">"</div>
+          <p class="quote__text">From visa help to post-surgery care, every detail was handled. I saved 70% compared to the UK and the doctors were exceptional.</p>
+          <div class="quote__author">
+            <div class="quote__avatar">SJ</div>
+            <div>
+              <div class="quote__name">Sarah J.</div>
+              <div class="quote__role">Santos Care patient · United Kingdom</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="quote reveal reveal--delay-1">
+          <div class="quote__mark">"</div>
+          <p class="quote__text">My father's bypass surgery in Delhi was seamless. The hospital felt like a 5-star hotel and the medical team was world-class.</p>
+          <div class="quote__author">
+            <div class="quote__avatar">AK</div>
+            <div>
+              <div class="quote__name">Ahmed K.</div>
+              <div class="quote__role">Santos Care patient · UAE</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="quote reveal reveal--delay-2">
+          <div class="quote__mark">"</div>
+          <p class="quote__text">The Kochi Swimathon is more than a race — it's a community. My family comes to Kerala every year for it, and we stay to explore.</p>
+          <div class="quote__author">
+            <div class="quote__avatar">RP</div>
+            <div>
+              <div class="quote__name">Rajesh P.</div>
+              <div class="quote__role">TDK Sports swimmer · Bengaluru</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA Banner -->
+  <section class="section">
+    <div class="container">
+      <div class="cta-banner">
+        <div class="eyebrow eyebrow--light"><span class="eyebrow__line"></span>Get in Touch<span class="eyebrow__line"></span></div>
+        <h2>Ready to grow together?</h2>
+        <p>Tell us what you need — a Kerala holiday, a medical opinion, a sports event, a digital build, a conservation partnership. We will route you to the right team within 24 hours.</p>
+        <div class="cta-banner__actions">
+          <a href="contact.html" class="btn btn--primary btn--lg">Start a Conversation</a>
+          <a href="tel:+918089084080" class="btn btn--secondary-light btn--lg">Call +91 80890 84080</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer__grid">
+        <div class="footer__col footer__col--brand">
+          <div class="nav__logo" style="color: white;">
+            <div class="nav__logo-mark"></div>
+            <div class="nav__logo-text">
+              <span style="color: white;">SANTOS.NEXUS</span>
+              <small style="color: rgba(255,255,255,0.6);">Growing Together Since 2009</small>
+            </div>
+          </div>
+          <p>A Kerala-rooted family of five brands — Travel, Sports, Care, Technology, Conservation — connecting people, creating possibilities, growing together.</p>
+          <div class="footer__mantra">"People • Planet • Progress"</div>
+        </div>
+
+        <div class="footer__col">
+          <h4>Our Brands</h4>
+          <ul>
+            <li><a href="travel.html">Santos Travel</a></li>
+            <li><a href="sports.html">TDK Sports</a></li>
+            <li><a href="care.html">Santos Care</a></li>
+            <li><a href="nexus.html">Santos Nexus</a></li>
+            <li><a href="darc.html">DARC Foundation</a></li>
+          </ul>
+        </div>
+
+        <div class="footer__col">
+          <h4>Company</h4>
+          <ul>
+            <li><a href="our-story.html">Our Story</a></li>
+            <li><a href="#">News &amp; Blog</a></li>
+            <li><a href="#">Careers</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </div>
+
+        <div class="footer__col">
+          <h4>Get in Touch</h4>
+          <ul>
+            <li><a href="tel:+918089084080">+91 80890 84080</a></li>
+            <li><a href="mailto:sales@santos.travel">sales@santos.travel</a></li>
+            <li>NH ByPass, Paravur Junction<br>Aluva, Kochi, Kerala 683108</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="footer__bottom">
+        <div>© 2026 Santos King Tours &amp; Travels Pvt. Ltd. All rights reserved.</div>
+        <div class="footer__bottom-links">
+          <a href="#">Privacy</a>
+          <a href="#">Terms</a>
+          <a href="#">Cookie Policy</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="assets/js/main.js"></script>
+  <script type="module" src="assets/js/hero-3d.js"></script>
+</body>
+</html>

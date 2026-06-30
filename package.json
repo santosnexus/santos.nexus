@@ -1,0 +1,22 @@
+{
+  "name": "santos-nexus",
+  "version": "1.0.0",
+  "description": "Santos.Nexus — interactive MVP for the Santos King family of brands",
+  "private": false,
+  "scripts": {
+    "dev": "npx serve .",
+    "start": "npx serve ."
+  },
+  "keywords": [
+    "santos-nexus",
+    "santos-king",
+    "kerala",
+    "india",
+    "tourism",
+    "medical-tourism",
+    "sports",
+    "conservation"
+  ],
+  "author": "Santos King Tours & Travels Pvt. Ltd.",
+  "license": "UNLICENSED"
+}
